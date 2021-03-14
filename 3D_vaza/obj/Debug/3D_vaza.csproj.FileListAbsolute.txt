@@ -1,0 +1,15 @@
+D:\01sl\c#\3D_vaza\3D_vaza\bin\Debug\3D_vaza.exe.config
+D:\01sl\c#\3D_vaza\3D_vaza\bin\Debug\3D_vaza.exe
+D:\01sl\c#\3D_vaza\3D_vaza\bin\Debug\3D_vaza.pdb
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza.csprojAssemblyReference.cache
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\MainWindow.g.cs
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\App.g.cs
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza_MarkupCompile.cache
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza_MarkupCompile.lref
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\MainWindow.baml
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza.g.resources
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\_3D_vaza.Properties.Resources.resources
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza.csproj.GenerateResource.cache
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza.csproj.CoreCompileInputs.cache
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza.exe
+D:\01sl\c#\3D_vaza\3D_vaza\obj\Debug\3D_vaza.pdb
