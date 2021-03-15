@@ -7,13 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
     <Grid>
-        <Grid x:Name="Grid2D" Width="194" Height="350" HorizontalAlignment="Left" Margin="0,71,0,0" Background="Gray" MouseLeftButtonDown="Grid_MouseLeftButtonDown">
+        <Grid x:Name="Grid2D" Width="194" HorizontalAlignment="Left" Margin="0,145,0,0" Background="Gray" MouseLeftButtonDown="Grid_MouseLeftButtonDown" >
             <Ellipse Height="8" Width="8" Fill="Black" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="161,316,0,0" ></Ellipse>
         </Grid>
-        <Grid x:Name="Gridik" Width="600" HorizontalAlignment="Right" Background="Black">
+        <Grid x:Name="Gridik" Width="600" HorizontalAlignment="Right" Background="Black" ClipToBounds="True">
 
         </Grid>
-        <Button Content="vykreslit" Name="vykreslit_btn" HorizontalAlignment="Left" Height="19" Margin="10,13,0,0" VerticalAlignment="Top" Width="168" Click="Button_Click"/>
-        <Button Content="smazat" Name="smazat_btn" HorizontalAlignment="Left" Height="19" Margin="10,37,0,0" VerticalAlignment="Top" Width="168" Click="smazat_btn_Click"/>
+        <Button Content="vykreslit" Name="vykreslit_btn" HorizontalAlignment="Left" Height="19" Margin="10,21,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="smazat" Name="smazat_btn" HorizontalAlignment="Left" Height="19" Margin="10,45,0,0" VerticalAlignment="Top" Width="75" Click="smazat_btn_Click"/>
+        <Slider x:Name="posunX" HorizontalAlignment="Left" Margin="111,11,0,0" VerticalAlignment="Top" Minimum="-100" Maximum="100" Value="0" Width="66"/>
+        <Slider x:Name="posunY" HorizontalAlignment="Left" Margin="111,34,0,0" VerticalAlignment="Top" Minimum="-300" Maximum="300" Value="0" Width="66"/>
+        <Slider x:Name="posunZ" HorizontalAlignment="Left" Margin="111,57,0,0" VerticalAlignment="Top" Minimum="-100" Maximum="100" Value="0" Width="66"/>
+        <Slider x:Name="zoomsl" HorizontalAlignment="Left" Margin="37,104,0,0" VerticalAlignment="Top" Minimum="0" Maximum="2" Value="1" Width="112"/>
     </Grid>
 </Window>

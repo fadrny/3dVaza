@@ -31,12 +31,16 @@ namespace _3D_vaza
 
         int alf = 30;
         int bet = 30;
-        int stupnuOtoceni = 5;
+        int stupnuOtoceni = 10;
 
         public Point Axon3Dto2D(int alpha, int beta, double x, double y, double z, double zoom, string osaOtoceni, int uhelOtoceni)
         {
             double X, Y, Z;
             double radUhelOtoc = uhelOtoceni * Math.PI / 180;
+
+            x += posunX.Value;
+            y += posunY.Value;
+            z += posunZ.Value;
 
             switch (osaOtoceni)
             {
@@ -62,13 +66,18 @@ namespace _3D_vaza
                     break;
             }
 
+            
+
+            zoom = zoomsl.Value;
+
+            
+
             Point bod2D = new Point();
             double alfaR = alpha * Math.PI / 180;
             double betaR = beta * Math.PI / 180;
 
-
-            bod2D.X = -(Math.Cos(alfaR) * X * zoom) + (Math.Cos(betaR) * Y * zoom) + Gridik.ActualWidth / 2;
-            bod2D.Y = Gridik.ActualHeight - (-Math.Sin(alfaR) * X * zoom - (Math.Sin(betaR) * Y * zoom) + (Z * zoom) + (Gridik.ActualHeight / 2));
+            bod2D.X = -(Math.Cos(alfaR) * X * zoom) + (Math.Cos(betaR) * Y * zoom) + Gridik.ActualWidth / 3.5;
+            bod2D.Y = Gridik.ActualHeight - (-Math.Sin(alfaR) * X * zoom - (Math.Sin(betaR) * Y * zoom) + (Z * zoom) + (Gridik.ActualHeight / 1.5));
 
             return bod2D;
         }
